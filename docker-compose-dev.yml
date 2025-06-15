@@ -1,0 +1,12 @@
+version: '3'
+services:
+  spring-boot-docker-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "9014:9014"
+    volumes:
+      - .:/app
+      - /app/target
+    container_name: spring-boot-docker-dev

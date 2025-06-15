@@ -1,0 +1,5 @@
+FROM maven
+WORKDIR /app/
+COPY . .
+
+ENTRYPOINT ["mvn", "spring-boot:run"]

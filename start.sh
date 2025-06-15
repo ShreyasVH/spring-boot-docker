@@ -1,1 +1,1 @@
-./mvnw spring-boot:run
+docker compose -p ${COMPOSE_PROJECT_NAME} -f docker-compose-dev.yml up --force-recreate
