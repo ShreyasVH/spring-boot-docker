@@ -5,7 +5,7 @@ RUN mvn clean compile -DskipTests=true package
 
 # ----------------------------------------------------------------
 
-FROM openjdk
+FROM eclipse-temurin:11.0.19_7-jdk-jammy
 
 WORKDIR /app/
 ARG NAME=demo
