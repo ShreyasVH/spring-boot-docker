@@ -11,7 +11,7 @@ public class IndexController
     @GetMapping("/api")
     public Map<String, String> get(@RequestParam(value = "input") String input)
     {
-        return new HashMap<String, String>(){{put("inputs", input);}};
+        return new HashMap<String, String>(){{put("input", input);}};
     }
 
     @PostMapping("/api")
