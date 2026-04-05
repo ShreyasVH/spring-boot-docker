@@ -5,7 +5,7 @@ RUN mvn clean compile -DskipTests=true package
 
 # ----------------------------------------------------------------
 
-FROM bellsoftcr/25-liberica-runtime-container:jdk-all-25.0.1-cds-slim-glibc
+FROM eclipse-temurin:25.0.2_10-jre-jammy
 
 WORKDIR /app/
 ARG NAME=demo
