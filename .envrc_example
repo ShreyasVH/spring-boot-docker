@@ -2,9 +2,9 @@ export COMPOSE_PROJECT_NAME=
 
 export PORT=
 
-# maven 3.9.16 path
+# maven 3.10.0 path
 export PATH=
 
-# java 26.0.2 path
+# java 27 path
 export PATH=
 export JAVA_HOME=
